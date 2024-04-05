@@ -9,8 +9,12 @@
         text-align: center
     }
 
-    .container {
 
+    body { background-color: #242424; }
+
+
+    .container {
+      margin-left: 55;
       height: 100px;
       display: flex;
       align-items: center;
@@ -27,14 +31,16 @@
       height: 1rem;
       border-radius: 24px;
       padding: 1rem;
+      justify-content: center;
     }
  
     button {
 
-      width: 100px;
+      width: 120px;
 
       padding: 9px;
       border: none;
+      
       border-radius: 24px;
       background-color: #4451b5;
       color: #fff;
