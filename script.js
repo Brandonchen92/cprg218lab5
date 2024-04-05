@@ -11,7 +11,7 @@ button.addEventListener('click', function(){
     .then(response => response.json())
     .then(
         displayData)
-    .catch(err => alert('Wrong City name'));
+    .catch(err => alert('Invalid City Name'));
  
 })
  
